@@ -1,0 +1,145 @@
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+html {
+    background-image: url(/../img/visual.png);
+}
+
+/*HEADER*/
+
+#header {
+    position: relative;
+    width: 1200px; 
+    margin: 0 auto; 
+    padding-top: 30px;
+    font-size: 0;
+}
+
+#header_wrap #header {
+    width: 100%;
+    height: 70px;
+    min-width: 1200px;
+    max-width: 1400px;
+}
+
+#header .logo {
+    float: left;
+    width: 250px;
+    height: 40px;
+}
+
+.gnb {
+    font-size: 0;
+    text-align: center;
+}
+
+.gnb li {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.dep1 {
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.menu{
+    font-size: 20px;
+    background-color: thistle;
+    background-color: red;
+}
+
+.gnb .dep1 a {
+    line-height: 45px;
+    padding: 0 40px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.gnb .dep2 {
+    margin: 25px 0 40px 0;
+
+}
+
+.gnb .dep2 li {
+    display: none;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.gnb .dep1 a:hover,
+.gnb .dep2 li:hover {
+    color: #df665d;
+}
+
+
+
+/*로그인*/
+
+.log {
+    position: absolute;
+    top: 9%;
+    right: 15%;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+}
+
+.log span {
+    margin-left: 20px;
+}
+
+.log span:hover {
+    color: #df665d;
+}
+.log span:first-child {
+    margin: 0;
+}
+
+/* MEIN*/
+#txt_wrap  {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    min-width: 1000px;
+    max-width: 1900px;
+    font-size: 0;
+    display: block;
+    padding: 90px 0 0 350px;
+}
+
+#txt_wrap strong {
+    color: #fff;
+    font-size: 50px;
+}
+
+#container_wrap #txt_wrap .txt1,
+#container_wrap #txt_wrap .txt2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#container_wrap #txt_wrap .txt2 {
+    font-weight: 600;
+}
+
+#container_wrap #txt_wrap .txt2::after {
+    border-bottom: 2px solid #000;
+    content:"";
+    position: absolute;
+    display: block;
+    top: 420px;
+    left: 350px;
+    width: 155px;
+    height: 10px;
+}
